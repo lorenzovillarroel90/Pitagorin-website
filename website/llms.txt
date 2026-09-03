@@ -8,7 +8,7 @@ App Store: https://apps.apple.com/gb/app/pitagorin/id6756659468
 ## What Pitagorin teaches
 
 - Arithmetic: addition, subtraction, multiplication, division, fractions, decimals, percentages, powers, roots, and related operations.
-- Times Tables: focused learning for tables 1 through 12, Smart Review, and fluency practice.
+- Times Tables: focused learning for tables 1 through 12; Pitagorin Pro adds Smart Review and a fluency sprint.
 - Algebra: guided topics including foundations, equations, proportional thinking, linear relationships, systems, exponents, and functions.
 - Mathematical reasoning: target-number and equation-balancing puzzles.
 
