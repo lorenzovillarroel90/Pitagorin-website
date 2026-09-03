@@ -16,7 +16,7 @@ Then open <http://localhost:8000>.
 
 `.github/workflows/deploy-pages.yml` publishes this directory to GitHub Pages whenever changes land on `master` or when the workflow is run manually.
 
-The current public destinations are the [App Store listing](https://apps.apple.com/gb/app/pitagorin/id6756659468), [Privacy Policy](https://sites.google.com/view/pitagorinmathapp/privacy-policy), and [Apple Terms of Use](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Update the canonical URL, sitemap, and metadata together if a custom domain is added.
+The current public destinations are the [App Store listing](https://apps.apple.com/gb/app/pitagorin/id6756659468), [Privacy Policy](privacy.html), and [Apple Terms of Use](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). Update the canonical URL, sitemap, and metadata together if a custom domain is added.
 
 ## Content roadmap
 

@@ -1,7 +1,7 @@
 {
   "name": "Pitagorin",
   "short_name": "Pitagorin",
-  "description": "Playful math learning for growing minds.",
+  "description": "Playful math practice for children, teens, and adults.",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#4361ee",

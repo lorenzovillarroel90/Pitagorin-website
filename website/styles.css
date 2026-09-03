@@ -123,6 +123,17 @@ h3 { margin: 0 0 .65rem; font-size: 1.3rem; }
 .page-hero { padding-bottom: 3rem; }
 .page-hero h1 { font-size: clamp(2.8rem, 6vw, 5rem); }
 .page-hero .lede { max-width: 700px; }
+.policy-hero { padding-bottom: 2rem; }
+.policy-meta { margin: 1.5rem 0 0; color: var(--muted); font-size: .95rem; }
+.policy-content { max-width: 940px; }
+.policy-intro { padding: 1.4rem 1.6rem; border-left: 4px solid var(--blue); border-radius: 8px; background: #f0f3ff; color: var(--muted); }
+.policy-intro p { margin: 0; }
+.policy-section { padding: 2rem 0; border-bottom: 1px solid var(--line); }
+.policy-section:last-child { border-bottom: 0; }
+.policy-section h2 { margin-bottom: .8rem; font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.policy-section p { max-width: 800px; color: var(--muted); }
+.policy-list { display: grid; gap: .7rem; max-width: 800px; padding-left: 1.35rem; color: var(--muted); }
+.policy-list li::marker { color: var(--blue); }
 .feature-hero { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 4rem; min-height: 800px; padding-top: 4.5rem; padding-bottom: 6.5rem; }
 .feature-hero h1 { max-width: 680px; }
 .feature-hero-art { position: relative; min-height: 720px; }
