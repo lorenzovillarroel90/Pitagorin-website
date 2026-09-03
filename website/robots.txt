@@ -1,0 +1,16 @@
+# Public marketing pages are intended to be discoverable in search and AI
+# search experiences. Keep private or unfinished launch material out of the
+# sitemap rather than blocking the public site broadly.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://lorenzovillarroel90.github.io/Pitagorin-website/sitemap.xml
