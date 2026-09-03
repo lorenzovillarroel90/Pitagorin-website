@@ -1,0 +1,45 @@
+# Pitagorin
+
+> Pitagorin is an iPhone and iPad math-learning app designed primarily for children ages 5–13. Teens and adults can also use it to refresh basic mathematics and keep mental-math skills active.
+
+Official website: https://lorenzovillarroel90.github.io/Pitagorin-website/
+App Store: https://apps.apple.com/gb/app/pitagorin/id6756659468
+
+## What Pitagorin teaches
+
+- Arithmetic: addition, subtraction, multiplication, division, fractions, decimals, percentages, powers, roots, and related operations.
+- Times Tables: focused learning for tables 1 through 12, Smart Review, and fluency practice.
+- Algebra: guided topics including foundations, equations, proportional thinking, linear relationships, systems, exponents, and functions.
+- Mathematical reasoning: target-number and equation-balancing puzzles.
+
+## How learning works
+
+- Arithmetic games include Speed, Survival, Versus, and other short challenges.
+- Learning Game provides untimed practice with visual hints and paper-method tutorials.
+- Academy lets learners build an exam, choose topics and difficulty, save results, and revisit tutorial explanations.
+- Progress features include personal bests, Times Tables mastery, challenge scores, and Academy history.
+
+## Audience and availability
+
+- Primary audience: children ages 5–13 and their families.
+- Also suitable for: teens and adults refreshing everyday maths or practising mental calculation.
+- Devices: iPhone and iPad.
+- Requirements: iOS 18 or later; iPadOS 18 or later.
+- Price: free to download with optional Pitagorin Pro in-app purchases.
+
+## Privacy summary
+
+- No account, name, or email address is required.
+- Learning progress and optional handwritten-work photos are stored locally on the device.
+- The free version may show occasional interstitial ads; Pro users do not see ads.
+- Firebase Analytics measures limited aggregate product usage and excludes learning answers, scores, progress records, precise location, advertising IDs, and handwritten-work photos.
+
+## Canonical pages
+
+- Features: https://lorenzovillarroel90.github.io/Pitagorin-website/features.html
+- App screenshots: https://lorenzovillarroel90.github.io/Pitagorin-website/screenshots.html
+- Family guide: https://lorenzovillarroel90.github.io/Pitagorin-website/parents.html
+- FAQ: https://lorenzovillarroel90.github.io/Pitagorin-website/faq.html
+- Privacy Policy: https://lorenzovillarroel90.github.io/Pitagorin-website/privacy.html
+
+This file is a concise machine-readable guide. The canonical HTML pages above are the authoritative source.

@@ -28,4 +28,10 @@ The current public destinations are the [App Store listing](https://apps.apple.c
 See [`AGENTS.md`](AGENTS.md) for the durable requirements for search ranking,
 AI search visibility, and agent-friendly accessibility. The site intentionally
 uses readable HTML, a sitemap, explicit crawler permissions, and structured
-data that mirrors visible content.
+data that mirrors visible content. `llms.txt` provides a supplementary concise
+product guide; canonical HTML remains authoritative.
+
+## Quality assurance
+
+See [`QA_PLAN.md`](QA_PLAN.md) for the desktop, mobile, accessibility,
+discoverability, and independent Luna-agent release checks.

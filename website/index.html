@@ -3,20 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pitagorin | Math practice for children and adults</title>
-  <meta name="description" content="Pitagorin is playful math practice for children ages 5–13, teens, and adults, with arithmetic games, times tables, Algebra, tutorials, and mental-math challenges.">
+  <title>Pitagorin Math App | Games, Times Tables & Algebra</title>
+  <meta name="description" content="Build math confidence with arithmetic games, times tables, visual tutorials, and guided algebra on iPhone and iPad. For ages 5–13 and adults too.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <meta name="apple-itunes-app" content="app-id=6756659468">
   <link rel="canonical" href="https://lorenzovillarroel90.github.io/Pitagorin-website/">
-  <meta property="og:title" content="Pitagorin | Math practice for children and adults">
-  <meta property="og:description" content="Build math confidence with playful practice, step-by-step support, and challenges for children, teens, and adults.">
+  <meta property="og:title" content="Pitagorin — math practice that feels like play">
+  <meta property="og:description" content="Arithmetic games, times tables, clear tutorials, and guided algebra for children and lifelong learners.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://lorenzovillarroel90.github.io/Pitagorin-website/">
-  <meta property="og:image" content="https://lorenzovillarroel90.github.io/Pitagorin-website/assets/app-icon.png">
-  <meta property="og:image:alt" content="Pitagorin app icon">
-  <meta name="twitter:card" content="summary">
-  <meta name="theme-color" content="#4361ee">
+  <meta property="og:image" content="https://lorenzovillarroel90.github.io/Pitagorin-website/assets/screenshots/01_speed_challenge.jpg">
+  <meta property="og:image:alt" content="Pitagorin arithmetic speed challenge">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#101a3a">
   <link rel="icon" href="assets/app-icon.png" type="image/png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
   <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -26,17 +29,25 @@
           "@id": "https://lorenzovillarroel90.github.io/Pitagorin-website/#website",
           "url": "https://lorenzovillarroel90.github.io/Pitagorin-website/",
           "name": "Pitagorin",
-          "description": "Playful math learning for growing minds."
+          "description": "Playful, guided math practice for children and lifelong learners",
+          "inLanguage": "en"
         },
         {
-          "@type": "SoftwareApplication",
-          "@id": "https://lorenzovillarroel90.github.io/Pitagorin-website/#application",
+          "@type": "MobileApplication",
+          "@id": "https://lorenzovillarroel90.github.io/Pitagorin-website/#app",
           "name": "Pitagorin",
           "applicationCategory": "EducationalApplication",
-          "operatingSystem": "iOS",
-          "description": "Playful math practice for children ages 5–13, teens, and adults, with arithmetic games, Times Tables, tutorials, Algebra practice, and mental-math challenges.",
+          "operatingSystem": "iOS 18 or later",
+          "description": "Math practice for ages 5–13 and adults, with arithmetic games, times tables, paper-method tutorials, algebra, and mental-math challenges.",
+          "image": "https://lorenzovillarroel90.github.io/Pitagorin-website/assets/app-icon.png",
           "downloadUrl": "https://apps.apple.com/gb/app/pitagorin/id6756659468",
-          "url": "https://lorenzovillarroel90.github.io/Pitagorin-website/"
+          "url": "https://lorenzovillarroel90.github.io/Pitagorin-website/",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "GBP",
+            "description": "Free download with optional in-app purchases"
+          }
         }
       ]
     }
@@ -46,69 +57,71 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <nav class="nav" aria-label="Primary navigation">
-      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><img src="assets/app-icon.png" alt=""></span><span>Pitagorin</span></a>
-      <div class="nav-links">
-        <a href="features.html">Features</a>
-        <a href="screenshots.html">Screenshots</a>
-        <a href="parents.html">For parents</a>
-        <a class="nav-cta" href="#download">Get the app</a>
-      </div>
+      <a class="brand" href="index.html" aria-label="Pitagorin home"><span class="brand-mark"><img src="assets/app-icon.png" width="44" height="44" alt=""></span><span>Pitagorin</span></a>
+      <div class="nav-links"><a href="features.html">Features</a><a href="screenshots.html">App screens</a><a href="parents.html">For families</a><a href="faq.html">FAQ</a><a class="nav-cta" href="https://apps.apple.com/gb/app/pitagorin/id6756659468">Get the app</a></div>
+      <details class="nav-menu"><summary>Menu</summary><div class="nav-menu-panel"><a href="features.html">Features</a><a href="screenshots.html">App screens</a><a href="parents.html">For families</a><a href="faq.html">FAQ</a><a href="privacy.html">Privacy</a><a href="https://apps.apple.com/gb/app/pitagorin/id6756659468">Get the app</a></div></details>
     </nav>
   </header>
-
   <main id="main">
-    <section class="hero">
-      <div>
-        <p class="eyebrow">Math confidence, one challenge at a time</p>
-        <h1>Make numbers feel like an adventure.</h1>
-        <p class="lede">Pitagorin helps children ages 5–13 build strong math habits, while giving teens and adults a friendly way to refresh arithmetic, practice mental math, and keep their skills active.</p>
-        <div class="actions">
-          <a class="button button-primary" href="#download">Explore Pitagorin</a>
-          <a class="button button-secondary" href="features.html">See how it works</a>
+    <div class="hero-shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Math practice, made inviting</p>
+          <h1>Understand it. Practise it. Make it yours.</h1>
+          <p class="lede">Pitagorin turns arithmetic, times tables, and early algebra into short, focused sessions with clear explanations. Built for children ages 5–13—and just as useful for adults refreshing everyday maths.</p>
+          <div class="actions"><a class="button button-primary" href="https://apps.apple.com/gb/app/pitagorin/id6756659468">Download free on the App Store</a><a class="button button-ghost" href="features.html">Explore the learning modes</a></div>
+          <p class="hero-note">Available for iPhone and iPad</p>
         </div>
-      </div>
-      <div class="hero-art" aria-label="A playful math illustration">
-        <div class="blob" aria-hidden="true"></div>
-        <div class="floating-card math-card"><strong>7 × 8 = ?</strong><span>Try it. Learn it. Remember it.</span></div>
-        <div class="sticker sticker-one" aria-hidden="true">✦</div>
-        <div class="sticker sticker-two" aria-hidden="true">✓</div>
-        <div class="floating-card mini-stat"><b>12</b><small>math worlds to explore</small></div>
-      </div>
-    </section>
+        <div class="hero-visual" aria-label="Pitagorin app screens for speed practice and guided algebra">
+          <div class="hero-orbit" aria-hidden="true"></div>
+          <div class="phone hero-phone-side"><img src="assets/screenshots/07_algebra_guided_solving.jpg" width="736" height="1600" alt="Pitagorin guided algebra solving an equation step by step"></div>
+          <div class="phone hero-phone-main"><img src="assets/screenshots/01_speed_challenge.jpg" width="736" height="1600" alt="Pitagorin speed challenge with a multiple-choice addition problem"></div>
+          <div class="math-chip chip-one" aria-hidden="true">7 × 8</div>
+          <div class="math-chip chip-two" aria-hidden="true">✓</div>
+        </div>
+      </section>
+    </div>
 
-    <section class="facts-strip" aria-label="Pitagorin at a glance">
-      <dl class="facts-list">
-        <div><dt>Learners</dt><dd>Children, teens, and adults</dd></div>
-        <div><dt>Platform</dt><dd>iPhone and iPad</dd></div>
-        <div><dt>Practice</dt><dd>Arithmetic to Algebra</dd></div>
-        <div><dt>Style</dt><dd>Playful and guided</dd></div>
-      </dl>
-    </section>
+    <section class="proof-bar" aria-label="Pitagorin at a glance"><div class="proof-bar-inner">
+      <div class="proof-item"><strong>Ages 5–13</strong><span>Age-aware foundations</span></div>
+      <div class="proof-item"><strong>Adults welcome</strong><span>Quick skill refreshers</span></div>
+      <div class="proof-item"><strong>iPhone + iPad</strong><span>iOS 18 or later</span></div>
+      <div class="proof-item"><strong>Free to download</strong><span>Optional Pro features</span></div>
+    </div></section>
 
-    <section class="section tint" aria-labelledby="why-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">Designed for real progress</p><h2 id="why-title">More than a worksheet.</h2></div>
-        <p>From first addition facts to middle-school Algebra, every activity is designed to keep practice focused, understandable, and rewarding.</p>
-      </div>
+    <section class="section" aria-labelledby="why-title">
+      <div class="section-heading"><div><p class="eyebrow">A better learning loop</p><h2 id="why-title">Practice with a reason.</h2></div><p>Every mode has a clear purpose: build fluency, understand a method, or stretch reasoning. Learners can move from a quick game to a worked explanation without leaving the app.</p></div>
       <div class="grid">
-        <article class="card"><div class="icon" aria-hidden="true">⚡</div><h3>Playful practice</h3><p>Speed, Survival, Versus, and puzzle games turn repetition into momentum without making learning feel like a test.</p></article>
-        <article class="card"><div class="icon" aria-hidden="true">💡</div><h3>Step-by-step support</h3><p>Paper-method tutorials and visual hints show the thinking behind an answer, not just whether it is right.</p></article>
-        <article class="card"><div class="icon" aria-hidden="true">🧭</div><h3>A path that grows</h3><p>Times Tables, Academy, Algebra, and interactive labs give learners a next step at every level.</p></article>
+        <article class="card"><div class="number-badge" aria-hidden="true">01</div><h3>Play for fluency</h3><p>Speed, Survival, Versus, and puzzle challenges make repetition energetic without turning practice into a worksheet.</p></article>
+        <article class="card"><div class="number-badge" aria-hidden="true">02</div><h3>Pause to understand</h3><p>Visual hints and paper-method tutorials reveal the steps behind arithmetic and algebra—not only the final answer.</p></article>
+        <article class="card"><div class="number-badge" aria-hidden="true">03</div><h3>Return with purpose</h3><p>Personal bests, times-table mastery, and Academy history help learners see where to practise next.</p></article>
       </div>
     </section>
 
-    <section class="section split" aria-labelledby="learning-title">
-        <div><p class="eyebrow">Built for learners and families</p><h2 id="learning-title">Confidence comes from understanding.</h2><p class="lede">Pitagorin combines quick feedback with room to slow down. Children can practice a fact, see a worked method, revisit a tricky question, and try again. Teens and adults can use the same short sessions to refresh core skills and keep mental math active.</p><ul class="checklist"><li>Arithmetic and mental-math foundations</li><li>Multiplication tables with guided and adaptive practice</li><li>Grade-organized Algebra from foundations to functions</li></ul></div>
-      <aside class="quote"><p>“A little practice every day adds up to a lot of confidence.”</p><small>Made for curious minds, ages 5–13.</small></aside>
+    <section class="section tint" aria-labelledby="inside-title">
+      <div class="section-heading"><div><p class="eyebrow">See the real app</p><h2 id="inside-title">Four ways to build confidence.</h2></div><p>From a one-minute mental-math sprint to a guided equation, Pitagorin gives learners a clear starting point and immediate feedback.</p></div>
+      <div class="screen-story">
+        <figure class="screen-card"><div class="screen-frame"><img src="assets/screenshots/01_speed_challenge.jpg" width="736" height="1600" loading="lazy" alt="Speed challenge asking 3 plus 8 with four answer choices"></div><figcaption><strong>Race the clock</strong><span>Build arithmetic fluency</span></figcaption></figure>
+        <figure class="screen-card"><div class="screen-frame"><img src="assets/screenshots/03_learning_mode.jpg" width="736" height="1600" loading="lazy" alt="Untimed learning mode with a paper method button"></div><figcaption><strong>Learn at your pace</strong><span>Ask for a visual method</span></figcaption></figure>
+        <figure class="screen-card"><div class="screen-frame"><img src="assets/screenshots/05_times_tables_learning.jpg" width="736" height="1600" loading="lazy" alt="Times tables practice asking 7 times 8"></div><figcaption><strong>Master times tables</strong><span>Practise tables 1 through 12</span></figcaption></figure>
+        <figure class="screen-card"><div class="screen-frame"><img src="assets/screenshots/07_algebra_guided_solving.jpg" width="736" height="1600" loading="lazy" alt="Guided algebra explaining how to solve x plus 4 equals 9"></div><figcaption><strong>Solve step by step</strong><span>Understand early algebra</span></figcaption></figure>
+      </div>
+      <div class="actions"><a class="button button-dark" href="screenshots.html">View all app screens</a><a class="button button-secondary" href="features.html">Compare every feature</a></div>
     </section>
 
-    <section class="section tint" id="download" aria-labelledby="download-title">
-      <div class="section-heading"><div><p class="eyebrow">Available now</p><h2 id="download-title">Bring playful math practice to iPhone and iPad.</h2></div><p>Download Pitagorin free from the App Store. It combines visual paper methods, guided practice, reasoning puzzles, Times Tables, and Algebra in one learning experience. Optional Pitagorin Pro features are available through in-app purchases.</p></div>
-      <div class="actions"><a class="button button-primary" href="https://apps.apple.com/gb/app/pitagorin/id6756659468" target="_blank" rel="noopener">Download on the App Store</a><a class="button button-secondary" href="faq.html">Read the FAQ</a></div>
+    <section class="section" aria-labelledby="audience-title">
+      <div class="section-heading"><div><p class="eyebrow">One app, different goals</p><h2 id="audience-title">Growing minds never stop growing.</h2></div><p>Pitagorin’s calm learning mode and lively challenges work for a first encounter with a concept, a school-age confidence boost, or an adult’s daily brain workout.</p></div>
+      <div class="audience-grid">
+        <article class="card audience-card"><span class="tag">Children & families</span><h3>Build foundations without fear.</h3><p>Choose age-aware operations and difficulty, practise independently, then open a visual explanation whenever the method is unclear.</p><div class="actions"><a class="button button-primary" href="parents.html">Read the family guide</a></div></article>
+        <article class="card audience-card"><span class="tag">Teens & adults</span><h3>Keep everyday maths sharp.</h3><p>Refresh arithmetic, percentages, fractions, roots, times tables, or algebra in short sessions that fit into a busy day.</p><div class="actions"><a class="button button-dark" href="features.html">Find a practice mode</a></div></article>
+      </div>
+    </section>
+
+    <section class="section section-compact mint-section" aria-labelledby="download-title">
+      <div class="cta-panel"><div><p class="eyebrow">Ready when you are</p><h2 id="download-title">Make the next five minutes count.</h2><p>Download Pitagorin free for iPhone and iPad. Optional Pro features are available through in-app purchases.</p></div><div class="actions"><a class="button button-primary" href="https://apps.apple.com/gb/app/pitagorin/id6756659468">Open the App Store</a></div></div>
     </section>
   </main>
-
-  <footer class="site-footer"><div class="footer-inner"><div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><img src="assets/app-icon.png" alt=""></span><span>Pitagorin</span></a><p>Playful math learning for growing minds.</p></div><div class="footer-links"><a href="features.html">Features</a><a href="parents.html">Parents</a><a href="screenshots.html">Screenshots</a><a href="faq.html">FAQ</a><a href="privacy.html">Privacy</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Terms</a></div></div><p class="footer-inner" style="display:block;margin-top:2rem;color:#8894b8;font-size:.85rem">© <span data-year></span> Pitagorin</p></footer>
+  <footer class="site-footer"><div class="footer-inner"><div><a class="brand" href="index.html"><span class="brand-mark"><img src="assets/app-icon.png" width="44" height="44" alt=""></span><span>Pitagorin</span></a><p class="footer-copy">Playful, guided math practice for children, families, and lifelong learners.</p></div><nav class="footer-links" aria-label="Footer navigation"><a href="features.html">Features</a><a href="screenshots.html">App screens</a><a href="parents.html">For families</a><a href="faq.html">FAQ</a><a href="privacy.html">Privacy</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms</a></nav></div><p class="footer-bottom">© <span data-year></span> Pitagorin. Available on the App Store.</p></footer>
   <script src="script.js"></script>
 </body>
 </html>

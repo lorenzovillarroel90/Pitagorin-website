@@ -1,10 +1,10 @@
 {
   "name": "Pitagorin",
   "short_name": "Pitagorin",
-  "description": "Playful math practice for children, teens, and adults.",
+  "description": "Playful, guided math practice for children, families, and lifelong learners.",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#4361ee",
-  "background_color": "#f7f9ff",
+  "theme_color": "#101a3a",
+  "background_color": "#fffdf7",
   "icons": [{"src": "assets/app-icon.png", "sizes": "512x512", "type": "image/png"}]
 }
