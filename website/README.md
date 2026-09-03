@@ -2,6 +2,11 @@
 
 This directory contains the static marketing site for GitHub Pages. It stays dependency-free so the public site can remain fast and crawlable without adding a web toolchain to the iOS project.
 
+The site is available in English, Spanish, German, French, and Italian. English
+pages live at the root; translated pages are generated under `es/`, `de/`,
+`fr/`, and `it/` with localized screenshots and reciprocal language metadata.
+Run `python3 tools/build_locales.py` after editing translated copy.
+
 ## Local preview
 
 From the repository root:

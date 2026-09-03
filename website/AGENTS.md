@@ -40,3 +40,16 @@ traditional search ranking and AI-powered search and website agents.
 Website work belongs in this worktree and should not modify the iOS app or its
 ongoing refactor. Review product, privacy, pricing, and availability copy with
 the owner whenever those claims change.
+
+## Localization
+
+- Keep website terminology consistent with the localized text shown in the
+  Pitagorin app. Treat the iOS `Localizable.strings` files and approved App
+  Store metadata in `/Users/lorenzov/Pitagorin-iOS` as the source of truth for
+  feature names, modes, difficulty labels, learning terms, and product copy.
+- Do not translate established product terms independently when an approved
+  app translation already exists. When app wording changes, update the matching
+  website locale and its screenshot captions together.
+- Every localized public page needs translated visible copy, metadata, image
+  alternatives, structured data, canonical and reciprocal `hreflang` links,
+  and a route in the sitemap. Pair it with screenshots from the same locale.

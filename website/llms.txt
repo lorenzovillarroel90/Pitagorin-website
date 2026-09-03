@@ -4,6 +4,13 @@
 
 Official website: https://lorenzovillarroel90.github.io/Pitagorin-website/
 App Store: https://apps.apple.com/gb/app/pitagorin/id6756659468
+Languages: English, Spanish, German, French, and Italian.
+
+Localized websites:
+- Spanish: https://lorenzovillarroel90.github.io/Pitagorin-website/es/
+- German: https://lorenzovillarroel90.github.io/Pitagorin-website/de/
+- French: https://lorenzovillarroel90.github.io/Pitagorin-website/fr/
+- Italian: https://lorenzovillarroel90.github.io/Pitagorin-website/it/
 
 ## What Pitagorin teaches
 
