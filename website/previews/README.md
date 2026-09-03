@@ -1,6 +1,6 @@
 # Rendered previews
 
-These are static captures of the current website scaffold for quick review in GitHub or the GitHub mobile app.
+These are static captures of the current website design for quick review in GitHub or the GitHub mobile app.
 
 - `home-mobile.jpg` — 390 × 844 mobile viewport
 - `home-desktop.jpg` — 1440 × 900 desktop viewport

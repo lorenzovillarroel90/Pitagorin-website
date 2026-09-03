@@ -20,8 +20,8 @@ traditional search ranking and AI-powered search and website agents.
 - Add structured data only when it describes information visible on the page.
   Never invent ratings, reviews, prices, awards, or product claims.
 - Link to authoritative first-party destinations such as the App Store listing,
-  privacy policy, support, and official social or repository pages once those
-  URLs are confirmed.
+  privacy policy, support, and official social or repository pages. Confirm
+  destination URLs before adding them to public copy or structured data.
 - Keep the site dependency-free unless a web toolchain is deliberately
   approved. Static, fast, crawlable HTML is the default.
 
@@ -38,5 +38,5 @@ traditional search ranking and AI-powered search and website agents.
 ## Scope
 
 Website work belongs in this worktree and should not modify the iOS app or its
-ongoing refactor. Before launch, review all product, privacy, pricing, and
-availability copy with the owner.
+ongoing refactor. Review product, privacy, pricing, and availability copy with
+the owner whenever those claims change.
