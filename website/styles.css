@@ -27,7 +27,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 92px; }
-body { margin: 0; overflow-x: hidden; background: var(--cream); hyphens: auto; }
+body { margin: 0; overflow-x: hidden; background: var(--cream); hyphens: none; }
 img { display: block; max-width: 100%; }
 a { color: inherit; }
 button, summary { font: inherit; }
